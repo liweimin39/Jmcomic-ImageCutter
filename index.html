@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="result"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="ImageCutter.min.js"></script>
+    <script>
+        JmDecrypt.decryptImageUrl(
+            'https://cdn-msp2.comic18j-yodo.club/media/photos/1169826/00001.webp',
+            '1169826', 
+            '00001'  
+        ).then(function(img) {
+            document.getElementById('result').appendChild(img);
+        }).catch(function(err) {
+            document.getElementById('result').textContent = 'error ' + err.message;
+        });
+    </script>
+</body>
+</html>
