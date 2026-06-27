@@ -6,10 +6,23 @@ ImageCutter.js is a JavaScript library for decrypting and reassembling scrambled
 
 Installation
 
+CDN Crypto.js 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+```
+Using CDN ImageCutter.min.js
+```html
+<script src="https://cdn.jsdelivr.net/gh/liweimin39/Jmcomic-ImageCutter@v1/ImageCutter.min.js"></script>
+```
+
+Use the local ImageCutter.min.js
+
+```html
 <script src="ImageCutter.min.js"></script>
 ```
+
+
+
 
 API Reference
 
